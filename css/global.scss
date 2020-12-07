@@ -1,0 +1,76 @@
+$button-blue: #00B7E0;
+$button-hover: #E8F6F9;
+$text-gray: #808080;
+
+.main-container {
+    margin: 0;
+    padding: 0;
+}
+button {
+    color: #fff;
+    background-color: $button-blue;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    padding: 15px;
+    &:hover {
+        background-color: $button-hover;
+    }
+    &.gray {
+        background-color: $text-gray;
+    }
+    &.white {
+        color: #222;
+        background-color: #fff;
+    }
+}
+nav.navbar {
+    height: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 35px 55px 25px 55px;
+    .navbar-nav {
+        .nav-link {
+            padding: 15px 15px 0 15px;
+        }
+        a.nav-link {
+            color: $text-gray;
+            &:hover {
+                color: $button-blue;
+                text-decoration: underline;
+            }
+        }
+        .nav-phone{
+            padding:15px 15px 0 15px;
+            color: $button-blue;
+        }
+        .navbar-toggler {
+            color: #fff;
+            background-color: $button-blue;
+        }
+    }
+}
+.main-jumbo {
+    height: 625px;
+    background-image: url("../img/main-jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    .left-col {
+        background:rgb(0, 183, 223, 0.1);
+        h3 {
+            color: #fff;
+        }
+    }
+    .right-col {
+        background:rgb(250, 250, 250, 0.5);
+    }
+}
+
+@media (min-width: 1200px){
+  .container-xl {
+        max-width: 1400px;
+    }
+}
