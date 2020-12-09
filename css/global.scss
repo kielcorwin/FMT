@@ -4,8 +4,11 @@ $button-blue: #00B7E0;
 $button-hover: #2fd6f6;
 $light-blue: #E8F6F9;
 $text-dark: #005A77;
-$text-gray: #808080;
+$text-dark-gray: #707070;
+$text-gray: #808080; 
 $light-gray: #F0F0F0;
+$mid-white: #C2C2C2;
+$off-white: #FDFDFD;
 $border-dark: #464748;
 
 body {
@@ -231,6 +234,102 @@ nav.navbar {
                 line-height: 40px;
             }
         }
+    }
+}
+.map-input {
+    background-color: $text-dark;
+    margin: 50px 0 0 0;
+    padding: 20px 100px;
+    span {
+        font-size: 20px;
+        color: #fff;
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+    select {
+        height: 55px;
+        width: 100%;
+    }
+}
+.map-display {
+    margin: 0;
+    height: 800px;
+    .map-list {
+        height: 800px;
+        overflow-y: scroll;
+        ul {
+            margin-top: 50px;
+            list-style: none;
+            margin: 50px 0;
+            padding: 0;
+            li{
+                color: $text-dark-gray;
+                margin: 20px 0;
+                img {
+                    width: 160px;
+                    height: 185px;
+                    float: right;
+                }
+                h4 {
+                    font-size: 28px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 27px;
+                    display: block;
+                    margin: 10px 0;
+                    span{
+                        display: block;
+                    }
+                    strong i{
+                        margin-top: 15px;
+                    }
+                    i {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+.sign-up {
+    background-color: $text-dark;
+    margin: 0;
+    padding: 50px 100px;
+    h3 {
+        color: $off-white;
+        font-size: 36px;
+    }
+    p {
+        color: $off-white;
+        font-size: 20px;
+    }
+    .col-md-3, .col-md-2 {
+        padding-top: 40px;
+    }
+    .zip {
+        width: 80%;
+    }
+}
+.footer {
+    margin: 0;
+    padding: 100px 30%;
+    background-color: $mid-white;
+    p {
+        color: #fff;
+        text-align: center;
+    }
+    img {
+        margin: 15px auto;
+        width: 215px;
+        height: 60px;
     }
 }
 
