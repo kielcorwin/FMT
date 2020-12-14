@@ -35,6 +35,106 @@ button.white {
   background-color: #fff;
 }
 
+.modal .modal-header {
+  display: block;
+  border: none;
+  padding: 10px;
+}
+
+.modal .modal-header .nav li {
+  padding: 0;
+  margin: 5px;
+}
+
+.modal .modal-header .nav li a {
+  background-color: #C6F3FD;
+  border-radius: 0;
+  color: #8AC1D2;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.modal .modal-header .nav li a.active {
+  background-color: #00B7E0;
+  color: #fff;
+}
+
+.modal .modal-body h1 {
+  font-size: 32px;
+  color: #005A77;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.modal .modal-body .header-sub-head {
+  position: absolute;
+  left: 35px;
+  top: 35px;
+}
+
+.modal .modal-body input[type=text] {
+  background-color: #F0F0F0;
+  color: #737373;
+  text-align: center;
+  font-size: 20px;
+}
+
+.modal .modal-body .form-single-input-row input, .modal .modal-body .required-text {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.modal .modal-body .form-full-inputs {
+  margin: 15px 0;
+}
+
+.modal .modal-body .form-full-inputs input {
+  width: 100%;
+}
+
+.modal .modal-body .inline-radio {
+  width: auto;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #737373;
+}
+
+.modal .modal-body .inline-radio input:checked + label {
+  font-weight: 700;
+}
+
+.modal .modal-body .full-label {
+  background-color: #F0F0F0;
+  padding: 25px 0;
+  margin-top: 30px;
+}
+
+.modal .modal-body .full-label h5 {
+  margin: 0 auto;
+}
+
+.modal .modal-body .total {
+  font-size: 20px;
+  color: #737373;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.modal .modal-body .total p {
+  margin: 0 auto;
+}
+
+.modal .modal-body button {
+  margin: 25px auto;
+}
+
+.modal .modal-body .modal-text-block {
+  font-size: 20px;
+  color: #737373;
+}
+
 input[type=text] {
   background-color: #fff;
   color: #000;
@@ -385,6 +485,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .footer p {
+  width: 100%;
   color: #fff;
   text-align: center;
 }
