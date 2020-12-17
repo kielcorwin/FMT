@@ -152,6 +152,9 @@ nav.navbar {
     font-weight: 500;
     text-align: center;
     padding: 35px 55px 25px 55px;
+    .navbar-toggler {
+        background-color: $button-blue;
+    }
     .navbar-nav {
         background-color: #fff;
         .nav-link {
@@ -286,7 +289,7 @@ nav.navbar {
 .container-fluid.materials {
     padding: 0 100px;
     h1 {
-        text-align: left;
+        text-align: center;
         font-size: 58px;
         font-weight: bold;
         color: $text-dark;
@@ -333,6 +336,10 @@ nav.navbar {
     background-color: $text-dark;
     margin: 50px 0 0 0;
     padding: 20px 100px;
+    input, button {
+        margin: 0 auto;
+        display: block;
+    }
     span {
         font-size: 20px;
         color: #fff;
@@ -347,7 +354,6 @@ nav.navbar {
 }
 .map-display {
     margin: 0;
-    height: 800px;
     .map-list {
         height: 800px;
         overflow-y: scroll;
@@ -410,6 +416,10 @@ nav.navbar {
     .zip {
         width: 80%;
     }
+    button {
+        display: block;
+        margin: 0 auto;
+    }
 }
 .footer {
     margin: 0;
@@ -430,5 +440,60 @@ nav.navbar {
 @media (min-width: 1200px){
   .container-xl {
         max-width: 1400px;
+    }
+}
+
+@media (max-width: 992px){
+    .map-input {
+        input {
+            float: none !important;
+        }
+        select {
+            height: 55px;
+            margin: 25px auto;
+            width: 75%;
+            display: block;
+        }
+    }
+}
+
+
+@media (max-width: 576px){
+    .jumbo-two {
+        dl {
+            &.row{
+                margin: 25px 0;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+            }
+            .icon {
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+    .container-fluid.materials {
+        padding: 0 10px;
+        .right-col {
+            margin-top: 30px;
+        }
+    }
+    .map-display{
+        .col-sm-8 {
+            height: 600px;
+            padding: 0;
+        }
+    }
+    .sign-up {
+        .col-12 {
+            padding: 20px 0;
+        }
+        input {
+            float: none !important;
+            display: block; 
+            margin: 0 auto;
+        }
     }
 }

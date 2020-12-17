@@ -169,6 +169,10 @@ nav.navbar {
   padding: 35px 55px 25px 55px;
 }
 
+nav.navbar .navbar-toggler {
+  background-color: #00B7E0;
+}
+
 nav.navbar .navbar-nav {
   background-color: #fff;
 }
@@ -324,7 +328,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .container-fluid.materials h1 {
-  text-align: left;
+  text-align: center;
   font-size: 58px;
   font-weight: bold;
   color: #005A77;
@@ -383,6 +387,11 @@ nav.navbar .navbar-nav .navbar-toggler {
   padding: 20px 100px;
 }
 
+.map-input input, .map-input button {
+  margin: 0 auto;
+  display: block;
+}
+
 .map-input span {
   font-size: 20px;
   color: #fff;
@@ -398,7 +407,6 @@ nav.navbar .navbar-nav .navbar-toggler {
 
 .map-display {
   margin: 0;
-  height: 800px;
 }
 
 .map-display .map-list {
@@ -478,6 +486,11 @@ nav.navbar .navbar-nav .navbar-toggler {
   width: 80%;
 }
 
+.sign-up button {
+  display: block;
+  margin: 0 auto;
+}
+
 .footer {
   margin: 0;
   padding: 100px 30%;
@@ -499,6 +512,50 @@ nav.navbar .navbar-nav .navbar-toggler {
 @media (min-width: 1200px) {
   .container-xl {
     max-width: 1400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .map-input input {
+    float: none !important;
+  }
+  .map-input select {
+    height: 55px;
+    margin: 25px auto;
+    width: 75%;
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbo-two dl.row {
+    margin: 25px 0;
+  }
+  .jumbo-two dl p {
+    margin: 0;
+    padding: 0;
+  }
+  .jumbo-two dl .icon {
+    margin: 0 auto;
+    display: block;
+  }
+  .container-fluid.materials {
+    padding: 0 10px;
+  }
+  .container-fluid.materials .right-col {
+    margin-top: 30px;
+  }
+  .map-display .col-sm-8 {
+    height: 600px;
+    padding: 0;
+  }
+  .sign-up .col-12 {
+    padding: 20px 0;
+  }
+  .sign-up input {
+    float: none !important;
+    display: block;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=global.css.map */
