@@ -13,7 +13,7 @@ body {
 
 button {
   color: #fff;
-  background-color: #006168;
+  background-color: #00B7E0;
   text-align: center;
   border-radius: 5px;
   font-size: 16px;
@@ -23,7 +23,7 @@ button {
 }
 
 button:hover {
-  background-color: #4CD1C1;
+  background-color: #2fd6f6;
 }
 
 button.gray {
@@ -55,13 +55,13 @@ button.white {
 }
 
 .modal .modal-header .nav li a.active {
-  background-color: #006168;
+  background-color: #00B7E0;
   color: #fff;
 }
 
 .modal .modal-body h1 {
   font-size: 32px;
-  color: #006168;
+  color: #005A77;
   font-weight: 700;
   text-align: center;
   margin-bottom: 35px;
@@ -170,7 +170,7 @@ nav.navbar {
 }
 
 nav.navbar .navbar-toggler {
-  background-color: #006168;
+  background-color: #00B7E0;
 }
 
 nav.navbar .navbar-nav {
@@ -186,18 +186,18 @@ nav.navbar .navbar-nav a.nav-link {
 }
 
 nav.navbar .navbar-nav a.nav-link:hover {
-  color: #006168;
+  color: #00B7E0;
   text-decoration: underline;
 }
 
 nav.navbar .navbar-nav .nav-phone {
   padding: 15px 15px 0 15px;
-  color: #006168;
+  color: #00B7E0;
 }
 
 nav.navbar .navbar-nav .navbar-toggler {
   color: #fff;
-  background-color: #006168;
+  background-color: #00B7E0;
 }
 
 .main-jumbo {
@@ -210,7 +210,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .main-jumbo .left-col h3 {
-  background: rgba(62, 189, 173, 0.75);
+  background: rgba(0, 125, 171, 0.75);
   border: 1px #464748;
   border-radius: 5px;
   margin-top: 200px;
@@ -240,7 +240,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .main-jumbo .right-col .form-header {
-  color: #006168;
+  color: #005A77;
   text-align: right;
   font-size: 34px;
   font-weight: 700;
@@ -306,7 +306,7 @@ nav.navbar .navbar-nav .navbar-toggler {
   text-align: center;
   font-size: 58px;
   font-weight: bold;
-  color: #006168;
+  color: #005A77;
   padding-bottom: 40px;
 }
 
@@ -331,7 +331,7 @@ nav.navbar .navbar-nav .navbar-toggler {
   text-align: center;
   font-size: 58px;
   font-weight: bold;
-  color: #006168;
+  color: #005A77;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -341,19 +341,19 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .container-fluid.materials .accordion .card {
-  background-color: #3EBDAD;
+  background-color: #E8F6F9;
   border: none;
   margin-bottom: 7px;
 }
 
 .container-fluid.materials .accordion .card .card-header {
-  background-color: #3EBDAD;
+  background-color: #E8F6F9;
   border: none;
   padding: 0;
 }
 
 .container-fluid.materials .accordion .card .card-header .btn {
-  color: #006168;
+  color: #005A77;
   font-size: 25px;
   font-weight: bold;
   height: 100%;
@@ -383,7 +383,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .map-input {
-  background-color: #006168;
+  background-color: #005A77;
   margin: 50px 0 0 0;
   padding: 20px 100px;
 }
@@ -464,7 +464,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .sign-up {
-  background-color: #006168;
+  background-color: #005A77;
   margin: 0;
   padding: 50px 100px;
 }
@@ -559,4 +559,4 @@ nav.navbar .navbar-nav .navbar-toggler {
     margin: 0 auto;
   }
 }
-/*# sourceMappingURL=WCT.css.map */
+/*# sourceMappingURL=RPT.css.map */

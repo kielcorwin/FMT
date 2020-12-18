@@ -8,7 +8,7 @@ $text-dark: #005A77;
 $gray-blue: #8AC1D2;
 $text-dark-gray: #707070;
 $text-dark-gray-alt: #737373;
-$text-gray: #808080; 
+$text-gray: #808080;
 $light-gray: #F0F0F0;
 $mid-white: #C2C2C2;
 $off-white: #FDFDFD;
@@ -293,6 +293,7 @@ nav.navbar {
         font-size: 58px;
         font-weight: bold;
         color: $text-dark;
+        padding-top: 40px;
         padding-bottom: 40px;
     }
     .accordion {
@@ -326,8 +327,8 @@ nav.navbar {
                 }
             }
             .card-body {
-                font-size: 25px;
-                line-height: 40px;
+                font-size: 18px;
+                line-height: 30px;                
             }
         }
     }

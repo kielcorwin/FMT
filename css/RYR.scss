@@ -1,10 +1,10 @@
 $lato: 'Lato', sans-serif;
 
-$button-blue: #00B7E0;
-$button-hover: #2fd6f6;
-$light-blue: #E8F6F9;
-$lighter-blue: #C6F3FD;
-$text-dark: #005A77;
+$button-blue: #405D18;
+$button-hover: #B9CD2B;
+$light-blue: #98C53D;
+$lighter-blue: #98C53D;
+$text-dark: #405D18;
 $gray-blue: #8AC1D2;
 $text-dark-gray: #707070;
 $text-dark-gray-alt: #737373;
@@ -186,7 +186,7 @@ nav.navbar {
     margin-bottom: 0;
     .left-col {
         h3 {
-            background:rgba(0, 125, 171, 0.75);
+            background:rgba(0, 97, 104, 0.75);
             border: 1px $border-dark;
             border-radius: 5px;
             margin-top: 200px;
@@ -293,6 +293,7 @@ nav.navbar {
         font-size: 58px;
         font-weight: bold;
         color: $text-dark;
+        padding-top: 40px;
         padding-bottom: 40px;
     }
     .accordion {
@@ -326,8 +327,8 @@ nav.navbar {
                 }
             }
             .card-body {
-                font-size: 25px;
-                line-height: 40px;
+                font-size: 18px;
+                line-height: 30px;
             }
         }
     }
