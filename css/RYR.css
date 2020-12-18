@@ -135,6 +135,11 @@ button.white {
   color: #737373;
 }
 
+#contactModal textarea {
+  width: 50%;
+  height: 100px;
+}
+
 input[type=text] {
   background-color: #fff;
   color: #000;
@@ -184,6 +189,9 @@ nav.navbar .navbar-brand span {
 
 nav.navbar .navbar-toggler {
   background-color: #405D18;
+  position: absolute;
+  right: 20px;
+  top: 50px;
 }
 
 nav.navbar .navbar-nav {
@@ -211,6 +219,11 @@ nav.navbar .navbar-nav .nav-phone {
 nav.navbar .navbar-nav .navbar-toggler {
   color: #fff;
   background-color: #405D18;
+}
+
+nav.navbar button a {
+  color: #FFF;
+  text-decoration: none;
 }
 
 .main-jumbo {
@@ -398,7 +411,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .map-input {
-  background-color: #405D18;
+  background-color: #98C53D;
   margin: 50px 0 0 0;
   padding: 20px 100px;
 }
@@ -419,6 +432,10 @@ nav.navbar .navbar-nav .navbar-toggler {
 .map-input select {
   height: 55px;
   width: 100%;
+}
+
+.map-list button.float-right {
+  margin-top: 15px;
 }
 
 .map-display {
@@ -480,7 +497,7 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 .sign-up {
-  background-color: #405D18;
+  background-color: #98C53D;
   margin: 0;
   padding: 50px 100px;
 }
@@ -503,9 +520,14 @@ nav.navbar .navbar-nav .navbar-toggler {
   width: 80%;
 }
 
+.sign-up input {
+  font-size: 18px;
+}
+
 .sign-up button {
   display: block;
   margin: 0 auto;
+  padding: 11px;
 }
 
 .footer {
@@ -524,6 +546,24 @@ nav.navbar .navbar-nav .navbar-toggler {
   margin: 15px auto;
   width: 215px;
   height: 60px;
+}
+
+.FAQ {
+  color: #707070;
+}
+
+.FAQ h1 {
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.FAQ h3 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.FAQ p {
+  margin-bottom: 50px;
 }
 
 @media (min-width: 1200px) {
@@ -545,6 +585,9 @@ nav.navbar .navbar-nav .navbar-toggler {
 }
 
 @media (max-width: 576px) {
+  nav.navbar .navbar-brand img {
+    margin-left: 0;
+  }
   .jumbo-two dl.row {
     margin: 25px 0;
   }
@@ -561,6 +604,11 @@ nav.navbar .navbar-nav .navbar-toggler {
   }
   .container-fluid.materials .right-col {
     margin-top: 30px;
+  }
+  .map-list button.float-right {
+    float: left !important;
+    margin-left: 45px;
+    margin-top: 15px;
   }
   .map-display .col-sm-8 {
     height: 600px;

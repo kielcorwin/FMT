@@ -134,6 +134,12 @@ button {
         }
     }
 }
+#contactModal {
+    textarea {
+        width: 50%;
+        height: 100px;
+    }
+}
 input[type=text] {
     background-color: #fff;
     color: #000;
@@ -167,6 +173,9 @@ nav.navbar {
     }
     .navbar-toggler {
         background-color: $button-blue;
+        position: absolute;
+        right: 20px;
+        top: 50px;
     }
     .navbar-nav {
         background-color: #fff;
@@ -188,6 +197,10 @@ nav.navbar {
             color: #fff;
             background-color: $button-blue;
         }
+    }
+    button a{
+        color: #FFF;
+        text-decoration: none;
     }
 }
 .main-jumbo {
@@ -368,6 +381,9 @@ nav.navbar {
         width: 100%;
     }
 }
+.map-list button.float-right {
+    margin-top: 15px;
+}
 .map-display {
     margin: 0;
     .map-list {
@@ -433,9 +449,13 @@ nav.navbar {
     .zip {
         width: 80%;
     }
+    input {
+        font-size: 18px;
+    }
     button {
         display: block;
         margin: 0 auto;
+        padding: 11px;
     }
 }
 .footer {
@@ -451,6 +471,21 @@ nav.navbar {
         margin: 15px auto;
         width: 215px;
         height: 60px;
+    }
+}
+
+.FAQ {
+    color: $text-dark-gray;
+    h1 {
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    h3 {
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    p {
+        margin-bottom: 50px;
     }
 }
 
@@ -476,6 +511,9 @@ nav.navbar {
 
 
 @media (max-width: 576px){
+    nav.navbar .navbar-brand img {
+        margin-left: 0;
+    }
     .jumbo-two {
         dl {
             &.row{
@@ -496,6 +534,11 @@ nav.navbar {
         .right-col {
             margin-top: 30px;
         }
+    }
+    .map-list button.float-right {
+        float: left!important;
+        margin-left: 45px;
+        margin-top: 15px;
     }
     .map-display{
         .col-sm-8 {

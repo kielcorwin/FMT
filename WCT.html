@@ -131,6 +131,25 @@
             </div>
           </div>
 
+        <!-- CONTACT MODAL -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <a href="mailto:Email@host.com">Email@host.com</a><br />
+                        <strong>Phone:</strong> XXX-XXX-XXXX<br />
+                        <strong>Comments:</strong><br />
+                        <textarea></textarea>
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         <!-- CONTENT-->
         <div class="container-fluid main-container">
             <nav class="navbar navbar-light navbar-expand-lg">
@@ -144,10 +163,10 @@
                 <div class="collapse navbar-collapse w-100 order-3" id="navToggle">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Frequently Asked Questions<span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="WCT-FAQ.html">Frequently Asked Questions<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Contact Financial Educators Network</a>
+                      <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact Financial Educators Network</a>
                     </li>
                     <li class="nav-item nav-phone">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -156,7 +175,7 @@
                         xxx-xxx-xxxx
                       </li>
                       <li class="nav-item nav-button">
-                        <button type="button">UPCOMING CLASSES</button>
+                        <button type="button"><a  href="#classMap">UPCOMING CLASSES</a></button>
                     </li>
                   </ul>
                 </div>
@@ -353,7 +372,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row  justify-content-center map-input">
+            <div id="classMap" class="row  justify-content-center map-input">
                 <div class="col-12 col-lg-4">
                     <input type="text" placeholder="Zip Code" class="float-right"/>
                 </div>
