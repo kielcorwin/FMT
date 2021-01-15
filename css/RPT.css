@@ -73,6 +73,14 @@ button.white {
   top: 35px;
 }
 
+.modal .modal-body i.subhead {
+  display: block;
+  text-align: center;
+  color: #666;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
 .modal .modal-body input[type=text] {
   background-color: #F0F0F0;
   color: #737373;
@@ -622,5 +630,43 @@ nav.navbar button a {
     display: block;
     margin: 0 auto;
   }
+}
+
+.modal .btn-close {
+  float: right;
+  background-color: #eee;
+  color: #666;
+  border: 1px solid #666;
+  padding: 0px 5px;
+  border-radius: 1px;
+}
+
+.modal textarea {
+  margin: 20px auto;
+  text-align: left;
+  background-color: #eee;
+  color: #000;
+  font-size: 20px;
+  min-height: 200px;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal textarea::-webkit-input-placeholder {
+  color: #666;
+}
+
+.modal textarea:-ms-input-placeholder {
+  color: #666;
+}
+
+.modal textarea::-ms-input-placeholder {
+  color: #666;
+}
+
+.modal textarea::placeholder {
+  color: #666;
 }
 /*# sourceMappingURL=RPT.css.map */

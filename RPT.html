@@ -149,6 +149,57 @@
             </div>
           </div>
 
+        <!-- DOWNLOAD MODAL -->
+        <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body">
+                    <div class="tab-pane fade show active" id="stepOne" role="tabpanel" aria-labelledby="stepOneTab">
+                        <h1>Download Sample Chapter</h1>
+                        <div class="row form-single-input-row">
+                            <input type="text" placeholder="*Email Address"/>
+                        </div>
+                        <div class="row form-single-input-row">
+                            <button type="button">Get Link</button>
+                        </div>
+                        <div class="row required-text">
+                            *Required field
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAKEOVER MODAL -->
+                <div class="modal fade" id="takeoverModal" tabindex="-1" aria-labelledby="takeoverModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">X</button>
+                          </div>
+                        <div class="modal-body">
+                            <div class="tab-pane fade show active" id="stepOne" role="tabpanel" aria-labelledby="stepOneTab">
+                                <h1>Question or Comment?</h1>
+                                <i class="subhead">Contact Financial Educators Network</i>
+                                <div class="row form-single-input-row">
+                                    <input type="text" placeholder="*Email Address"/>
+                                </div>
+                                <div class="row form-single-input-row">
+                                    <textarea placeholder="Question, comment..."></textarea>
+                                </div>
+                                <div class="row form-single-input-row">
+                                    <button type="button">SEND</button>
+                                </div>
+                                <div class="row required-text">
+                                    *Required field
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
         <!-- CONTENT-->
         <div class="container-fluid main-container">
             <nav class="navbar navbar-light navbar-expand-lg">
@@ -365,7 +416,7 @@
                         <button type="button" class="d-block mx-auto">FREQUENTLY ASKED QUESTIONS</button>
                     </div>
                     <div class="col-12 col-sm-6 right-col">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal">
+                        <a href="#" data-toggle="modal" data-target="#takeoverModal">
                             <img src="img/workbook-with-circle.png" class="img-fluid" />
                         </a>
                     </div>

@@ -46,6 +46,7 @@ button {
     }
 }
 .modal {
+
     .modal-header {
         display: block;
         border: none;
@@ -80,6 +81,13 @@ button {
             position: absolute;
             left: 35px;
             top: 35px;
+        }
+        i.subhead {
+            display: block;
+            text-align: center;
+            color: #666;
+            margin-top: -25px;
+            margin-bottom: 25px;
         }
         input[type=text] {
             background-color: $light-gray;
@@ -556,4 +564,29 @@ nav.navbar {
             margin: 0 auto;
         }
     }
+}
+
+///// FEN TAKEOVER ADDITION 
+.modal .btn-close {
+    float: right;
+    background-color: #eee;
+    color: #666;
+    border: 1px solid #666;
+    padding: 0px 5px;
+    border-radius: 1px;
+}
+.modal textarea {
+    margin: 20px auto;
+    text-align: left;
+    background-color: #eee;
+    color: #000;
+    font-size: 20px;
+    min-height: 200px;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.modal textarea::placeholder {
+    color: #666;
 }
